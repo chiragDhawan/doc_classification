@@ -1,5 +1,5 @@
 import urllib.request
-# urllib.request.urlretrieve('https://raw.githubusercontent.com/Loktra/Data-Engineer/master/trainingdata.txt','trainingdata.txt') #This downloads the training data file
+urllib.request.urlretrieve('https://raw.githubusercontent.com/Loktra/Data-Engineer/master/trainingdata.txt','trainingdata.txt') #This downloads the training data file
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
